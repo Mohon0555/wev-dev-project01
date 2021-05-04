@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: poppins;
 }
 h1 {
@@ -10,9 +11,56 @@ font-size: 50px;
 .half-width{
     width: 40%;
     float: left;
-    margin: 3%;
-    padding: 2%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.top-banner{
+    background-image: url("developer-portfolio/top-banner.png");
+background-repeat: no-repeat;
 }
 .half-width img {
 width: 100%;
+}
+
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
+}
+.dream{
+    background-image: url("developer-portfolio/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.last-section{
+    background-image: url("developer-portfolio/exp-bg.png");
+    background-repeat: no-repeat;
+   
+    background-position: left;
+}
+.single-exp{
+    margin-top: 50px;
+    box-shadow: 10px 10px 40px gray;
+    height: 50%;
+    background-color: honeydew;
+}
+#graphic-exp{
+    border-left:7px solid;
+    border-image: linear-gradient(180deg,lightSalmon,tomato );
+    border-image-slice: 1;
+}
+#WEB-exp{
+    border-left:7px solid;
+    border-image:linear-gradient(180deg,blue, cyan );
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
